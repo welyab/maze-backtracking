@@ -4,6 +4,13 @@ A maze generator and solver using backtracking algorithms.
 
 This project is part of a simple tutorial about using of backtracking algorithms.
 
+## Setup
+
+The fast way to get hands on code is open the project in some IDE with support for Kotlin under a Gradle project:
+
+* IntelliJ (recommended)
+* Eclipse (with specific kotlin plugins)
+
 ## Generating a Maze
 
 The maze paths fits inside a matrix with `width` and `height` dimensions. The `MazeGenerator` class generates mazes by using [Wilson's algorithm](https://en.wikipedia.org/wiki/Maze_generation_algorithm#Wilson's_algorithm), that try to randomly create paths. 
